@@ -43,9 +43,18 @@ takeshi:build$ cat /etc/drachtio.conf.xml
 ```
 
 ## Running drachtio server
+
 ```
 drachtio
 ```
+The above will start drachtio using /etc/drachtio.conf.xml (default location)
+
+But we can specify the file like this
+```
+drachtio -f drachtio.conf.xml 
+```
+and so we can start and run multiple instances simultaneously.
+
 
 ## Running the test:
 ```
