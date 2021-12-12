@@ -1,0 +1,19 @@
+{
+  "name": "drachtio-experiments",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "data-matching": "^1.23.8",
+    "drachtio-srf": "^4.4.60",
+    "sip-lab": "^1.7.0",
+    "sip-matching": "^1.3.13",
+    "tracing-log": "^1.2.0",
+    "zester": "^4.1.1"
+  }
+}
