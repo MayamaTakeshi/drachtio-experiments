@@ -69,7 +69,7 @@ async function test() {
 
     const s1 = sip.subscription_create(t1.id, 'dialog', 'application/dialog-info+xml', '<sip:user1@test1.com>', '<sip:user1@test1.com>', 'sip:park1@test1.com', `sip:${drachtio_server}`, 'test1.com', 'user1', 'user1')
 
-    sip.subscription_subscribe(s1, 120, '', '', '')
+    sip.subscription_subscribe(s1, 120)
 
     await z.wait([
         {
